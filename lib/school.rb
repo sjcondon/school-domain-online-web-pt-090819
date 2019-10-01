@@ -13,10 +13,10 @@ class School
     #roster[grade] = []
     #roster[grade] << students_name
     #if roster[grade]
-     # roster[grade] << students_name
+    # roster[grade] << students_name
     #else
-      #roster[grade] = []
-      #roster[grade] << students_name
+    #roster[grade] = []
+    #roster[grade] << students_name
       
       if !roster[grade]
         roster[grade] = []
