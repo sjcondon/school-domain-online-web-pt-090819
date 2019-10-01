@@ -23,4 +23,5 @@ end
     roster.each do |grade, student|
       
   end
+end
   
