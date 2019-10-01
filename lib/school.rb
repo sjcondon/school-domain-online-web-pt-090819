@@ -10,7 +10,7 @@ class School
   def add_students(students_name, grade)
    roster[grade] ||= []
   roster[grade] << students_name
-end
+  end
   
   def grade(grade)
     roster[grade]
