@@ -12,11 +12,13 @@ class School
     #binding.pry
     #roster[grade] = []
     #roster[grade] << students_name
-    if roster[grade]
-      roster[grade] << students_name
-    else
-      roster[grade] = []
-      roster[grade] << students_name
+    #if roster[grade]
+     # roster[grade] << students_name
+    #else
+      #roster[grade] = []
+      #roster[grade] << students_name
+      
+      if !
   end
   
 end
