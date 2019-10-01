@@ -18,7 +18,8 @@ class School
       #roster[grade] = []
       #roster[grade] << students_name
       
-      if !
+      if !roster[grade]
+        roster[grade] = []
   end
   
 end
