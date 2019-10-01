@@ -12,7 +12,8 @@ class School
     #binding.pry
     #roster[grade] = []
     #roster[grade] << students_name
-    if 
+    if roster[grade]
+      
   end
   
 end
