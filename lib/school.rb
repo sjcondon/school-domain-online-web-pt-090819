@@ -1,4 +1,5 @@
 # code here!
+require pry
 class School
   attr_accessor :roster
  
@@ -8,6 +9,7 @@ class School
   end
   
   def add_students(students_name, grade)
+    binding.pry
     roster[grade] = []
     roster[grade] << students_name
   end
