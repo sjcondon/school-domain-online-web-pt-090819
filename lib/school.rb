@@ -14,6 +14,8 @@ class School
     #roster[grade] << students_name
     if roster[grade]
       roster[grade] << students_name
+    else
+      
   end
   
 end
